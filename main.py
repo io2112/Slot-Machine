@@ -52,7 +52,7 @@ class SlotMachine(QMainWindow):
                 try:
                     winsound.PlaySound('win.wav', winsound.SND_FILENAME)
                 except:
-                    pass  # sound file might not exist
+                    pass  #if file doesnt exist
         else:
             print("Try again")
 
